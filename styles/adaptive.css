@@ -1,0 +1,582 @@
+@media (max-width: 1250px){
+	.provide-inner{
+		flex-direction: column;
+	    padding-bottom: 50px;
+	}
+	.provide_info_but{
+		margin-bottom: 40px;
+	}
+	.provide_items{
+		flex-direction: row;
+		max-width: 80%;
+	}
+	.container{
+		max-width: 80%;
+	}
+	.organ_content{
+		flex-direction: column;
+	}
+	.content-inner{
+		margin-bottom: 20px;
+	}
+	.popup-gallery a:nth-child(4n){
+		display: none;
+	}
+	.team_galery{
+	    flex-wrap: wrap;
+	}
+	.team_aside_part{
+	    margin-left: 0;
+	    margin-top: 20px;
+	}
+	.team_aside_images{
+		text-align: center;
+	}
+	.container-touch{
+		max-width: 80%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.touch_connect{
+		display: block;
+	    margin-top: 40px;
+	}
+	.touch_inputs{
+	    display: block;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.touch_inputs input,
+	.touch_form textarea{
+		display: block;
+	    font-size: 16px;
+	    line-height: 28px;
+	}
+	.touch_inputs input{
+	    height: 70px;
+	    width: 70%;
+	    padding: 21px 55px 21px;
+	    margin-top: 20px;
+	}
+	.touch_form textarea{
+	    height: 250px;
+	    width: 730px;
+	    padding: 21px 55px;
+	    margin-bottom: 10px;
+	}
+	.touch_form > input{
+	    width: 50%;
+	    font-size: 16px;
+	    line-height: 20px;
+	    margin-bottom: 40px;
+	    padding: 18px 0 18px;
+	    margin-left: 0;
+	}
+	.container-touch{
+	    max-width: 80%;
+	    margin: 0 auto;
+	}
+	.touch_info{
+	    width: 574px;
+	    margin-left: 0;
+	    padding: 30px 80px 30px;
+	}
+	.touch_info_title{
+	    font-size: 18px;
+	    line-height: 34px;
+	    letter-spacing: 0.25px;
+	    text-transform: uppercase;
+	    margin-bottom: 40px;
+	}
+	.touch_info_adress,
+	.touch_info_mail,
+	.touch_info_tel{
+	    font-size: 16px;
+	    line-height: 28px;
+	    margin-bottom: 33px;
+	}
+}
+@media (max-width: 1070px){
+	.organ_title{
+		max-width: 700px;
+	}
+	.provide_item_title{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.provide_item_text{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.provide_single_item{
+	    padding-top: 60px;
+	}
+	footer{
+		padding: 15px 0 15px;
+	}
+	.footer-inner{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer_copy{
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-bottom: 10px;
+	}
+	footer img{
+		width: 25px;
+	}
+}
+@media (max-width: 840px){
+	.touch_inputs input,
+	.touch_form textarea{
+	    font-size: 13px;
+	    line-height: 20px;
+	}
+	.touch_inputs input{
+	    height: 60px;
+	    width: 50%;
+	}
+	.touch_form textarea{
+	    height: 200px;
+	    width: 600px;
+	}
+	.touch_form > input{
+	    width: 30%;
+	    font-size: 13px;
+	    line-height: 20px;
+	    padding: 16px 0 16px;
+	}
+	.container-touch{
+	    max-width: 80%;
+	    margin: 0 auto;
+	}
+	.touch_info{
+	    width: 600px;
+	    margin-left: 0;
+	    padding: 30px 80px 30px;
+	}
+	.touch_info_title{
+	    font-size: 16px;
+	    line-height: 25px;
+	    margin-bottom: 40px;
+	}
+	.touch_info_adress,
+	.touch_info_mail,
+	.touch_info_tel{
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-bottom: 25px;
+	}
+}
+@media (max-width: 800px){
+	.nav_menu{
+		display: block;
+	    padding: 15px 24px 15px 24px;
+	    color: #e0e0e0;
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	.header_nav{
+		display: none;
+		text-align: center;
+	}
+	.header_nav a{
+		display: block;
+	}
+	.header-inner{
+		text-align: left;
+	}
+	/*
+	14 -> 12
+	60 -> 42
+	16 -> 13
+	18 -> 16
+	42 -> 34
+	*/
+	.header_nav_link{
+	    padding: 15px 24px 15px 24px;
+	    font-size: 12px;
+	    line-height: 24px;
+	    letter-spacing: 0.35px;
+	    text-transform: uppercase;
+	    display: inline-block;
+	}
+	.organisation{
+	    padding: 50px 0 60px 0;
+	    background-color: #f6f2f2;
+	}
+	.organ_title{
+	    font-size: 40px;
+    	line-height: 50px;
+    	margin-bottom: 20px;
+    	max-width: 600px;
+	}
+	.organ_text{
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-bottom: 30px;
+	}
+	.provide{
+	    padding: 50px 0 50px 0;
+	}
+	.provide_info_title{
+	    font-size: 34px;
+	    line-height: 40px;
+	    letter-spacing: 0.1px;
+	    text-transform: uppercase;
+	    margin-bottom: 35px;
+	}
+	.provide_info_text{
+	    font-size: 13px;
+	    line-height: 20px;
+	    padding-bottom: 40px;
+	}
+	.provide_item_title{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.provide_item_text{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.provide_single_item{
+	    padding-top: 50px;
+	}
+	.feature_products{
+	    padding-bottom: 60px;
+	}
+	.feature_info{
+    	margin-bottom: 30px;
+	}
+	.feature_info_title{
+	    font-size: 34px;
+	    padding-bottom: 25px;
+	}
+	.feature_info_text{
+	    font-size: 13px;
+	    line-height: 20px;
+	}
+	.feature_links{
+	    margin-bottom: 40px;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.feature_links a{
+	    font-size: 18px;
+	    line-height: 20px;
+	    padding: 20px 20px 20px 20px;
+	}
+	.team_info_title{
+	    font-size: 34px;
+	    padding-bottom: 28px;
+	}
+	.team_info_text{
+	    font-size: 13px;
+	    line-height: 20px;
+	    max-width: 400px;
+	}
+	.team_info_text:after{
+	    margin-top: 40px;
+	    margin-bottom: 40px;
+	}
+	.team_aside_title{
+	    font-size: 22px;
+	    margin-bottom: 20px; 
+	}
+	.team_aside_text{
+	    max-width: 550px;
+	    margin-bottom: 30px;
+	    font-size: 13px;
+	    line-height: 20px;
+	}
+	.team_aside_contacts{
+	    margin-bottom: 40px;
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.team_aside_contacts a{
+	    color: black;
+	    margin-right: 30px;
+	}
+	.team{
+	    padding-bottom: 50px;
+	}
+	.design_tips{
+	    padding: 70px 0px 70px;
+	}
+	.design_form input[type="email"]{
+	    width: 80%;
+	    padding: 14px 25px 14px;
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-right: 0;
+	}
+	.design_form input[type="submit"]{
+	    width: 50%;
+	    font-size: 14px;
+	    line-height: 18px;
+	    padding: 14px 0 14px;
+	    margin-top: 20px;
+	}
+	.get_in_touch{
+	    padding: 50px 0px 50px 0px;
+	}
+	.touch_title{
+	    font-size: 34px;
+	    line-height: auto;
+	    padding-bottom: 30px;
+	}
+	.touch_text{
+	    font-size: 13px;
+	    line-height: 20px;
+	}
+	.touch_text:after{
+	    display: block;
+	    content: "";
+	    height: 2px;
+	    width: 130px;
+	    background-color: #ff3b3b;
+	    margin-top: 40px;
+	}
+	.footer_copy{
+	    font-size: 12px;
+	    line-height: 16px;
+	    margin-bottom: 10px;
+	}
+}
+@media (max-width: 790px){
+	.popup-gallery a:nth-child(3n){
+		display: none;
+	}
+}
+@media (max-width: 700px){
+	.design_title{
+	    font-size: 34px;
+	    line-height: 40px;
+	    padding-bottom: 20px;
+	}
+	.touch_inputs input{
+	    height: 60px;
+	    width: 400px;
+	}
+	.touch_form textarea{
+	    height: 150px;
+	    width: 400px;
+	}
+	.touch_form > input{
+	    width: 30%;
+	    font-size: 13px;
+	    line-height: 20px;
+	    padding: 12px 0 12px;
+	}
+	.container-touch{
+	    max-width: 80%;
+	    margin: 0 auto;
+	}
+	.touch_info{
+	    width: 400px;
+	    margin-left: 0;
+	    padding: 30px 80px 30px;
+	}
+	.touch_info_title{
+	    font-size: 16px;
+	    line-height: 25px;
+	    margin-bottom: 40px;
+	}
+	.touch_info_adress,
+	.touch_info_mail,
+	.touch_info_tel{
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-bottom: 25px;
+	}
+}
+@media (max-width: 625px){
+	.design_tips{
+	    padding: 35px 0px 35px;
+	}
+}
+@media (max-width: 570px){
+	.organ_but{
+	    font-size: 16px;
+	    padding: 7px 0 7px;
+	    width: 180px;
+	}
+	.design_form input[type="email"]{
+	    min-width: 490px;
+	    padding: 18px 25px 18px;
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-right: 0;
+	}
+	.design_form input[type="submit"]{
+	    min-width: 250px;
+	    font-size: 14px;
+	    line-height: 18px;
+	    padding: 18px 0 18px;
+	    margin-top: 20px;
+	}
+	.design_title{
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.provide_info_but{
+	    font-size: 16px;
+	    padding: 7px 0 7px;
+	    width: 180px;
+	}
+}
+@media (max-width: 525px){
+	.team_aside_contacts{
+		text-align: center;
+	}
+	.tooltip_image-inner{
+	   display: inline-block; 
+	   max-width: 50%;
+	   height: 50%;
+	   position: relative;
+	   padding: 0;
+	}
+	.tooltip_image-inner img{
+	   display: inline-block; 
+	   width: 100%;
+	   position: relative;
+	}
+	.tooltip_image-inner::after {
+	    font-size: 18px;
+	    line-height: auto;
+	    letter-spacing: 0.1px;
+	    content: attr(data-tooltip);
+	    position: absolute;
+	    width: 100%;
+	    left: 0; 
+	    bottom: 0;
+	    padding: 10px 0 10px;
+	    background-color: #7a786e;
+	    color: #fff;
+	    pointer-events: none;
+	    opacity: 0;
+	    transition: 1s;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+}
+@media (max-width: 520px){
+	.design_form input[type="email"]{
+	    min-width: 280px;
+	    padding: 10px 20px 10px;
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-right: 0;
+	}
+	.design_form input[type="submit"]{
+	    min-width: 150px;
+	    font-size: 14px;
+	    line-height: 18px;
+	    padding: 10px 0 10px;
+	    margin-top: 20px;
+	}
+}
+@media (max-width: 470px){
+	.touch_inputs input{
+	    height: 40px;
+	    width: 300px;
+	    padding: 30px;
+	    font-size: 12px;
+	}
+	.touch_form textarea{
+	    height: 200px;
+	    width: 300px;
+	    padding-left: 30px;
+	}
+	.touch_form > input{
+	    width: 300px;
+	    font-size: 13px;
+	    line-height: 20px;
+	    padding: 12px 0 12px;
+	}
+	.touch_info{
+	    width: 300px;
+	    margin-left: 0;
+	    padding: 30px 80px 30px;
+	}
+	.touch_info_title{
+	    font-size: 16px;
+	    line-height: 25px;
+	    margin-bottom: 30px;
+	}
+	.touch_info_adress,
+	.touch_info_mail,
+	.touch_info_tel{
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-bottom: 15px;
+	}
+	.touch_info{
+	    padding-left: 30px;
+	}
+}
+@media (max-width: 425px){
+	.design_title{
+		font-size: 27px;
+		line-height: 30px;
+	}
+	.design_text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+}
+@media (max-width: 390px){
+	.team_main_image img{
+		max-width: 100%;
+	}
+}
+@media (max-width: 370px){
+	.organ_title{
+	    font-size: 32px;
+    	line-height: 50px;
+    	margin-bottom: 20px;
+	}
+	.popup-gallery img{
+		max-width: 100%;
+	}
+		.touch_inputs input{
+	    height: 40px;
+	    width: 250px;
+	    padding: 30px;
+	    font-size: 12px;
+	}
+	.touch_form textarea{
+	    height: 200px;
+	    width: 250px;
+	    padding-left: 30px;
+	}
+	.touch_form > input{
+	    width: 250px;
+	    font-size: 13px;
+	    line-height: 20px;
+	    padding: 12px 0 12px;
+	}
+	.touch_info{
+	    width: 250px;
+	    margin-left: 0;
+	    padding: 30px 30px 30px;
+	}
+}
+@media (max-width: 340px){
+	.organ_title{
+		font-size: 30px;
+		line-height: 35px;
+	}
+}
+@media (min-width: 800px){
+	.nav_menu{
+		display: none;
+	}
+	.header_nav{
+		display: block !important;;
+	}
+}
